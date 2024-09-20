@@ -10,12 +10,12 @@ Basit bir altyapı, Telegram ortamındaki arkadaşların parayla sattığı kodl
    pip install python-telegram-bot --upgrade
    ```
 2. Kurulum:
-  ```bash
-  "tg.py" dosyasını not defteri ile açın.
-  Belirtilen yerleri doldurun.
-  ```
+   ```bash
+   "tg.py" dosyasını not defteri ile açın.
+   Belirtilen yerleri doldurun.
+   ```
 3. Çalıştırma:
-  ```bash
-  python tg.py
-  ```
+   ```bash
+   python tg.py
+   ```
   
