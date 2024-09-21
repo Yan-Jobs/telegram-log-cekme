@@ -6,6 +6,8 @@ Basit bir altyapı, Telegram ortamındaki arkadaşların parayla sattığı kodl
 
 1. Yükleme:
    ```bash
+   git clone https://github.com/Yan-Jobs/telegram-log-cekme
+   cd telegram-log-cekme
    pip install telegram
    pip install python-telegram-bot --upgrade
    ```
