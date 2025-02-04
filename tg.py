@@ -2,7 +2,7 @@ from telegram import Update, InputFile
 from telegram.ext import ApplicationBuilder, CommandHandler
 import os
 
-canquest = '' # Telegram Bot Token
+cantoken = '' # Telegram Bot Token
 logdosya = '' # Log file with accounts
 kullanilanlar = '' # File name for used accounts (It's not important, you can write random.)
 
@@ -64,7 +64,7 @@ async def test(update: Update, context):
     await update.message.reply_text('Komutlar çalışıyor!')
 
 if __name__ == '__main__':
-    app = ApplicationBuilder().token(canquest).build()
+    app = ApplicationBuilder().token(cantoken).build()
 
     app.add_handler(CommandHandler('start', start))
     app.add_handler(CommandHandler('log', log))
@@ -73,4 +73,4 @@ if __name__ == '__main__':
     print('Bot çalışmaya başladı.')
     app.run_polling()
 
-    # Made by Canquest. If you want to share you need to give credit. Ex: "Credit: https://github.com/Yan-Jobs"
+    # Made by can. If you want to share you need to give credit. Ex: "Credit: https://github.com/Yan-Jobs"
